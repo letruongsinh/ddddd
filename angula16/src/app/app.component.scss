@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1024px;
+    margin: auto;
+    min-height: 550px;
+    background-color: red;
+    
+}
+
+.container .header {
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo1{
+    width: 114px;
+}
+.header-button{
+    border-radius: 20px; 
+    background-color:red;
+    color:red;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    
+}
+.menu li {
+    
+    margin-left: 30px;
+    list-style: none;
+    float: left;
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+.container .content .article {
+    width: 70%;
+    float: left;
+    background-color: pink;
+    padding-bottom: 30px;
+}
+.container .content .sidebar {
+    width: 30%;
+    height: 470px;
+    background-color: green;
+    float: right;
+    
+    
+}
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin: 10px;
+    margin-left: 30px;
+    width: 250px;
+
+}
+.list-items .item .img .thumb-img {
+    width: 100%;
+    height: 300px;
+}
+.link-title-item {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.pk{
+    margin: 10px;
+    margin-left: 30px;
+    
+}
+.pk-button1{
+    border-radius: 30px; 
+    background-color:aqua;
+    color:white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    
+}
+.pk-button2{
+    border-radius: 30px; 
+    background-color:red;
+    color:white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    
+}
+.divider {
+border-bottom: 1px solid #ccc; 
+flex-basis: 20px; 
+}
+
